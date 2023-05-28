@@ -36,7 +36,7 @@ const CardContainer = () => {
     <div className="App ">
       {contacts.map((eleman) => {
         return (
-          <div className="container mt-5">
+          <div className="container mt-5" >
             <div className="ust d-flex ">
               <img className="pic" src={eleman.picture.large} alt="" />
 
